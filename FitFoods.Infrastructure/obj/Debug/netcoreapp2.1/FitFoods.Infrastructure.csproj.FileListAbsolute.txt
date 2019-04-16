@@ -1,0 +1,9 @@
+C:\Projetos\FitFoods\FitFoods.Infrastructure\bin\Debug\netcoreapp2.1\FitFoods.Infrastructure.deps.json
+C:\Projetos\FitFoods\FitFoods.Infrastructure\bin\Debug\netcoreapp2.1\FitFoods.Infrastructure.dll
+C:\Projetos\FitFoods\FitFoods.Infrastructure\bin\Debug\netcoreapp2.1\FitFoods.Infrastructure.pdb
+C:\Projetos\FitFoods\FitFoods.Infrastructure\obj\Debug\netcoreapp2.1\FitFoods.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projetos\FitFoods\FitFoods.Infrastructure\obj\Debug\netcoreapp2.1\FitFoods.Infrastructure.AssemblyInfoInputs.cache
+C:\Projetos\FitFoods\FitFoods.Infrastructure\obj\Debug\netcoreapp2.1\FitFoods.Infrastructure.AssemblyInfo.cs
+C:\Projetos\FitFoods\FitFoods.Infrastructure\obj\Debug\netcoreapp2.1\FitFoods.Infrastructure.dll
+C:\Projetos\FitFoods\FitFoods.Infrastructure\obj\Debug\netcoreapp2.1\FitFoods.Infrastructure.pdb
+C:\Projetos\FitFoods\FitFoods.Infrastructure\obj\Debug\netcoreapp2.1\FitFoods.Infrastructure.csprojAssemblyReference.cache

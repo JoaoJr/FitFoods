@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FitFoods.Domain\FitFoods.Domain.csproj" />
+    <ProjectReference Include="..\FitFoods.Repository\FitFoods.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

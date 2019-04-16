@@ -1,0 +1,12 @@
+C:\Projetos\FitFoods\FitFoods.Domain\obj\Debug\netcoreapp2.1\FitFoods.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\FitFoods\FitFoods.Domain\obj\Debug\netcoreapp2.1\FitFoods.Domain.AssemblyInfoInputs.cache
+C:\Projetos\FitFoods\FitFoods.Domain\obj\Debug\netcoreapp2.1\FitFoods.Domain.AssemblyInfo.cs
+C:\Projetos\FitFoods\FitFoods.Domain\bin\Debug\netcoreapp2.1\FitFoods.Domain.deps.json
+C:\Projetos\FitFoods\FitFoods.Domain\bin\Debug\netcoreapp2.1\FitFoods.Domain.dll
+C:\Projetos\FitFoods\FitFoods.Domain\bin\Debug\netcoreapp2.1\FitFoods.Domain.pdb
+C:\Projetos\FitFoods\FitFoods.Domain\obj\Debug\netcoreapp2.1\FitFoods.Domain.dll
+C:\Projetos\FitFoods\FitFoods.Domain\obj\Debug\netcoreapp2.1\FitFoods.Domain.pdb
+C:\Projetos\FitFoods\FitFoods.Domain\obj\Debug\netcoreapp2.1\FitFoods.Domain.csprojAssemblyReference.cache
+C:\Projetos\FitFoods\FitFoods.Domain\bin\Debug\netcoreapp2.1\FitFoods.Infrastructure.dll
+C:\Projetos\FitFoods\FitFoods.Domain\bin\Debug\netcoreapp2.1\FitFoods.Infrastructure.pdb
+C:\Projetos\FitFoods\FitFoods.Domain\obj\Debug\netcoreapp2.1\FitFoods.Domain.csproj.CopyComplete

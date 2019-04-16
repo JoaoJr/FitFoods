@@ -1,0 +1,14 @@
+C:\Projetos\FitFoods\FitFoods.Repository\bin\Debug\netcoreapp2.1\FitFoods.Repository.deps.json
+C:\Projetos\FitFoods\FitFoods.Repository\bin\Debug\netcoreapp2.1\FitFoods.Repository.dll
+C:\Projetos\FitFoods\FitFoods.Repository\obj\Debug\netcoreapp2.1\FitFoods.Repository.csprojAssemblyReference.cache
+C:\Projetos\FitFoods\FitFoods.Repository\obj\Debug\netcoreapp2.1\FitFoods.Repository.csproj.CoreCompileInputs.cache
+C:\Projetos\FitFoods\FitFoods.Repository\obj\Debug\netcoreapp2.1\FitFoods.Repository.AssemblyInfoInputs.cache
+C:\Projetos\FitFoods\FitFoods.Repository\obj\Debug\netcoreapp2.1\FitFoods.Repository.AssemblyInfo.cs
+C:\Projetos\FitFoods\FitFoods.Repository\bin\Debug\netcoreapp2.1\FitFoods.Repository.pdb
+C:\Projetos\FitFoods\FitFoods.Repository\bin\Debug\netcoreapp2.1\FitFoods.Domain.dll
+C:\Projetos\FitFoods\FitFoods.Repository\bin\Debug\netcoreapp2.1\FitFoods.Infrastructure.dll
+C:\Projetos\FitFoods\FitFoods.Repository\bin\Debug\netcoreapp2.1\FitFoods.Domain.pdb
+C:\Projetos\FitFoods\FitFoods.Repository\bin\Debug\netcoreapp2.1\FitFoods.Infrastructure.pdb
+C:\Projetos\FitFoods\FitFoods.Repository\obj\Debug\netcoreapp2.1\FitFoods.Repository.csproj.CopyComplete
+C:\Projetos\FitFoods\FitFoods.Repository\obj\Debug\netcoreapp2.1\FitFoods.Repository.dll
+C:\Projetos\FitFoods\FitFoods.Repository\obj\Debug\netcoreapp2.1\FitFoods.Repository.pdb
