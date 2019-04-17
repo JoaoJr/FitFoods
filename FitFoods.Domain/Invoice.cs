@@ -1,4 +1,5 @@
 ﻿using FitFoods.Domain.Interface;
+using FitFoods.Domain.Interface.Domain;
 using FitFoods.Domain.States;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace FitFoods.Domain
 {
-    public class Invoice
+    public class Invoice: IInvoice
     {
         public IInvoiceState CurrentState;
 
@@ -35,6 +36,11 @@ namespace FitFoods.Domain
         {
             var NextState = new Delivered();
             DefineNextState(NextState);
+        }
+
+        public IInvoiceState GetCurrentState()
+        {
+            return this.CurrentState;
         }
 
         private void DefineNextState(IInvoiceState NextState)

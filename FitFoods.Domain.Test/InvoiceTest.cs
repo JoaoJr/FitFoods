@@ -1,4 +1,5 @@
-﻿using FitFoods.Domain.States;
+﻿using FitFoods.Domain.Interface.Domain;
+using FitFoods.Domain.States;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,7 +14,7 @@ namespace FitFoods.Domain.Test
         {
             List<Snack> snacks = new List<Snack>();
             snacks.Add(new Snack(1, "Hamburguer", 10));
-            Invoice invoice = new Invoice(snacks);
+            IInvoice invoice = new Invoice(snacks);
 
             Assert.Equal(invoice.snacks[0].Name, snacks[0].Name);
         }
@@ -23,7 +24,7 @@ namespace FitFoods.Domain.Test
         {
             List<Snack> snacks = new List<Snack>();
             snacks.Add(new Snack(1, "Hamburguer", 10));
-            Invoice invoice = new Invoice(snacks);
+            IInvoice invoice = new Invoice(snacks);
 
             List<Snack> snacksAdd = new List<Snack>();
             snacks.Add(new Snack(1, "Juice", 10));
@@ -38,10 +39,10 @@ namespace FitFoods.Domain.Test
         {
             List<Snack> snacks = new List<Snack>();
             snacks.Add(new Snack(1, "Hamburguer", 10));
-            Invoice invoice = new Invoice(snacks);
+            IInvoice invoice = new Invoice(snacks);
 
             invoice.Prepare();
-            Assert.Equal(invoice.CurrentState.LastAcceptableState, new Preparing().LastAcceptableState);
+            Assert.Equal(invoice.GetCurrentState().LastAcceptableState, new Preparing().LastAcceptableState);
         }
 
         [Fact]
@@ -49,11 +50,11 @@ namespace FitFoods.Domain.Test
         {
             List<Snack> snacks = new List<Snack>();
             snacks.Add(new Snack(1, "Hamburguer", 10));
-            Invoice invoice = new Invoice(snacks);
+            IInvoice invoice = new Invoice(snacks);
 
             invoice.Prepare();
             invoice.Finish();
-            Assert.Equal(invoice.CurrentState.LastAcceptableState.GetType(), new Finished().LastAcceptableState.GetType());
+            Assert.Equal(invoice.GetCurrentState().LastAcceptableState.GetType(), new Finished().LastAcceptableState.GetType());
         }
 
         [Fact]
@@ -61,12 +62,12 @@ namespace FitFoods.Domain.Test
         {
             List<Snack> snacks = new List<Snack>();
             snacks.Add(new Snack(1, "Hamburguer", 10));
-            Invoice invoice = new Invoice(snacks);
+            IInvoice invoice = new Invoice(snacks);
 
             invoice.Prepare();
             invoice.Finish();
             invoice.Delivery();
-            Assert.Equal(invoice.CurrentState.LastAcceptableState.GetType(), new Delivered().LastAcceptableState.GetType());
+            Assert.Equal(invoice.GetCurrentState().LastAcceptableState.GetType(), new Delivered().LastAcceptableState.GetType());
         }
 
         [Fact]
@@ -74,7 +75,7 @@ namespace FitFoods.Domain.Test
         {
             List<Snack> snacks = new List<Snack>();
             snacks.Add(new Snack(1, "Hamburguer", 10));
-            Invoice invoice = new Invoice(snacks);
+            IInvoice invoice = new Invoice(snacks);
 
             invoice.Prepare();
             Assert.Throws<Exception>(() => invoice.Delivery());
